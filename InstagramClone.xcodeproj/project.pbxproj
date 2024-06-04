@@ -14,6 +14,14 @@
 		2F5CFC982C0F140E007A3FDE /* InstagramClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFC962C0F140E007A3FDE /* InstagramClone.xcdatamodeld */; };
 		2F5CFC9A2C0F1410007A3FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CFC992C0F1410007A3FDE /* Assets.xcassets */; };
 		2F5CFC9D2C0F1410007A3FDE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CFC9C2C0F1410007A3FDE /* Base */; };
+		2F5CFCAE2C0F159E007A3FDE /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCAD2C0F159E007A3FDE /* MainTabController.swift */; };
+		2F5CFCB02C0F1AB3007A3FDE /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCAF2C0F1AB3007A3FDE /* FeedController.swift */; };
+		2F5CFCB22C0F1ABA007A3FDE /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCB12C0F1ABA007A3FDE /* SearchController.swift */; };
+		2F5CFCB42C0F1AC3007A3FDE /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCB32C0F1AC3007A3FDE /* ImageSelectorController.swift */; };
+		2F5CFCB62C0F1ACE007A3FDE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCB52C0F1ACE007A3FDE /* NotificationController.swift */; };
+		2F5CFCB82C0F1AD6007A3FDE /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCB72C0F1AD6007A3FDE /* ProfileController.swift */; };
+		2F5CFCBA2C0F2EE3007A3FDE /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCB92C0F2EE3007A3FDE /* FeedCell.swift */; };
+		2F5CFCBE2C0F2FD8007A3FDE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCBD2C0F2FD8007A3FDE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		2F5CFC992C0F1410007A3FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F5CFC9C2C0F1410007A3FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F5CFC9E2C0F1410007A3FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5CFCAD2C0F159E007A3FDE /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		2F5CFCAF2C0F1AB3007A3FDE /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		2F5CFCB12C0F1ABA007A3FDE /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		2F5CFCB32C0F1AC3007A3FDE /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		2F5CFCB52C0F1ACE007A3FDE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2F5CFCB72C0F1AD6007A3FDE /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		2F5CFCB92C0F2EE3007A3FDE /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		2F5CFCBD2C0F2FD8007A3FDE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,12 @@
 			children = (
 				2F5CFC8D2C0F140E007A3FDE /* AppDelegate.swift */,
 				2F5CFC8F2C0F140E007A3FDE /* SceneDelegate.swift */,
+				2F5CFCA72C0F1463007A3FDE /* Model */,
+				2F5CFCA62C0F1462007A3FDE /* View */,
+				2F5CFCA42C0F1435007A3FDE /* ViewModel */,
+				2F5CFCAA2C0F14CD007A3FDE /* Controller */,
+				2F5CFCAB2C0F14DC007A3FDE /* API */,
+				2F5CFCAC2C0F14E1007A3FDE /* Utils */,
 				2F5CFC912C0F140E007A3FDE /* ViewController.swift */,
 				2F5CFC932C0F140E007A3FDE /* Main.storyboard */,
 				2F5CFC992C0F1410007A3FDE /* Assets.xcassets */,
@@ -68,6 +90,57 @@
 				2F5CFC962C0F140E007A3FDE /* InstagramClone.xcdatamodeld */,
 			);
 			path = InstagramClone;
+			sourceTree = "<group>";
+		};
+		2F5CFCA42C0F1435007A3FDE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F5CFCA62C0F1462007A3FDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CFCB92C0F2EE3007A3FDE /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F5CFCA72C0F1463007A3FDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "New Group1/Model";
+			sourceTree = "<group>";
+		};
+		2F5CFCAA2C0F14CD007A3FDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CFCAD2C0F159E007A3FDE /* MainTabController.swift */,
+				2F5CFCAF2C0F1AB3007A3FDE /* FeedController.swift */,
+				2F5CFCB12C0F1ABA007A3FDE /* SearchController.swift */,
+				2F5CFCB32C0F1AC3007A3FDE /* ImageSelectorController.swift */,
+				2F5CFCB52C0F1ACE007A3FDE /* NotificationController.swift */,
+				2F5CFCB72C0F1AD6007A3FDE /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F5CFCAB2C0F14DC007A3FDE /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2F5CFCAC2C0F14E1007A3FDE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CFCBD2C0F2FD8007A3FDE /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5CFCB42C0F1AC3007A3FDE /* ImageSelectorController.swift in Sources */,
 				2F5CFC922C0F140E007A3FDE /* ViewController.swift in Sources */,
+				2F5CFCB02C0F1AB3007A3FDE /* FeedController.swift in Sources */,
 				2F5CFC8E2C0F140E007A3FDE /* AppDelegate.swift in Sources */,
+				2F5CFCBA2C0F2EE3007A3FDE /* FeedCell.swift in Sources */,
+				2F5CFCB22C0F1ABA007A3FDE /* SearchController.swift in Sources */,
+				2F5CFCB82C0F1AD6007A3FDE /* ProfileController.swift in Sources */,
+				2F5CFCBE2C0F2FD8007A3FDE /* Extensions.swift in Sources */,
+				2F5CFCAE2C0F159E007A3FDE /* MainTabController.swift in Sources */,
+				2F5CFCB62C0F1ACE007A3FDE /* NotificationController.swift in Sources */,
 				2F5CFC982C0F140E007A3FDE /* InstagramClone.xcdatamodeld in Sources */,
 				2F5CFC902C0F140E007A3FDE /* SceneDelegate.swift in Sources */,
 			);
