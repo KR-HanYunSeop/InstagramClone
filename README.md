@@ -1,5 +1,5 @@
-## InstaGramClone
-- Implement MVVMarchitecture
+## InstagramClone
+- Implement MVVM architecture
 - Backend server using Cloud Firestore
 - Authenticate and register users with Firebase
 - Upload images to Firebase Storage
