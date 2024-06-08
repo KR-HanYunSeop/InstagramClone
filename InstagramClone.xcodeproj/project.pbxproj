@@ -10,6 +10,7 @@
 		035E05B7B6BEBDC108B7D7A9 /* Pods_InstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B92B89325DDD5FF09DEA4D /* Pods_InstagramClone.framework */; };
 		2F2DCE582C146E5B00253280 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE572C146E5B00253280 /* UploadPostController.swift */; };
 		2F2DCE5A2C14866500253280 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE592C14866500253280 /* InputTextView.swift */; };
+		2F2DCE5C2C1496A500253280 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE5B2C1496A500253280 /* PostService.swift */; };
 		2F34917E2C0FACE50073E13A /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917D2C0FACE50073E13A /* ImageUploader.swift */; };
 		2F3491802C0FACEF0073E13A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917F2C0FACEF0073E13A /* AuthService.swift */; };
 		2F3491842C10C6E80073E13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F3491832C10C6E70073E13A /* GoogleService-Info.plist */; };
@@ -44,6 +45,7 @@
 		27B92B89325DDD5FF09DEA4D /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2DCE572C146E5B00253280 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
 		2F2DCE592C14866500253280 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		2F2DCE5B2C1496A500253280 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		2F34917D2C0FACE50073E13A /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		2F34917F2C0FACEF0073E13A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2F3491832C10C6E70073E13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -205,6 +207,7 @@
 				2F34917D2C0FACE50073E13A /* ImageUploader.swift */,
 				2F34917F2C0FACEF0073E13A /* AuthService.swift */,
 				2F34918A2C11D2AC0073E13A /* UserService.swift */,
+				2F2DCE5B2C1496A500253280 /* PostService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				2F3491932C12F9A60073E13A /* UserCell.swift in Sources */,
 				2F5CFCBE2C0F2FD8007A3FDE /* Extensions.swift in Sources */,
 				2F5CFCAE2C0F159E007A3FDE /* MainTabController.swift in Sources */,
+				2F2DCE5C2C1496A500253280 /* PostService.swift in Sources */,
 				2F34918B2C11D2AC0073E13A /* UserService.swift in Sources */,
 				2F5CFCB62C0F1ACE007A3FDE /* NotificationController.swift in Sources */,
 				2F34918D2C11D2E10073E13A /* Constants.swift in Sources */,
