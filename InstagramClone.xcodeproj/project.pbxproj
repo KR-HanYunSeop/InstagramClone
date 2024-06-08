@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		035E05B7B6BEBDC108B7D7A9 /* Pods_InstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B92B89325DDD5FF09DEA4D /* Pods_InstagramClone.framework */; };
+		2F2DCE582C146E5B00253280 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE572C146E5B00253280 /* UploadPostController.swift */; };
+		2F2DCE5A2C14866500253280 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE592C14866500253280 /* InputTextView.swift */; };
 		2F34917E2C0FACE50073E13A /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917D2C0FACE50073E13A /* ImageUploader.swift */; };
 		2F3491802C0FACEF0073E13A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917F2C0FACEF0073E13A /* AuthService.swift */; };
 		2F3491842C10C6E80073E13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F3491832C10C6E70073E13A /* GoogleService-Info.plist */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		27B92B89325DDD5FF09DEA4D /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2DCE572C146E5B00253280 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
+		2F2DCE592C14866500253280 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		2F34917D2C0FACE50073E13A /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		2F34917F2C0FACEF0073E13A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2F3491832C10C6E70073E13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -190,6 +194,7 @@
 				2F5CFCB32C0F1AC3007A3FDE /* ImageSelectorController.swift */,
 				2F5CFCB52C0F1ACE007A3FDE /* NotificationController.swift */,
 				2F5CFCB72C0F1AD6007A3FDE /* ProfileController.swift */,
+				2F2DCE572C146E5B00253280 /* UploadPostController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			children = (
 				2F5CFCBD2C0F2FD8007A3FDE /* Extensions.swift */,
 				2F34918C2C11D2E10073E13A /* Constants.swift */,
+				2F2DCE592C14866500253280 /* InputTextView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -340,6 +346,7 @@
 			files = (
 				2F3491862C11AAA60073E13A /* ProfileCell.swift in Sources */,
 				2F5CFCC32C0F3F3E007A3FDE /* RegistrationController.swift in Sources */,
+				2F2DCE582C146E5B00253280 /* UploadPostController.swift in Sources */,
 				2F5CFCB42C0F1AC3007A3FDE /* ImageSelectorController.swift in Sources */,
 				2F5CFCC92C0F69EE007A3FDE /* AuthenticationViewModel.swift in Sources */,
 				2F5CFCB02C0F1AB3007A3FDE /* FeedController.swift in Sources */,
@@ -361,6 +368,7 @@
 				2F5CFC902C0F140E007A3FDE /* SceneDelegate.swift in Sources */,
 				2F3491912C11DB5A0073E13A /* ProfileHeaderViewModel.swift in Sources */,
 				2F5CFCC52C0F4A2B007A3FDE /* CustomViews.swift in Sources */,
+				2F2DCE5A2C14866500253280 /* InputTextView.swift in Sources */,
 				2F34918F2C11D4930073E13A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
