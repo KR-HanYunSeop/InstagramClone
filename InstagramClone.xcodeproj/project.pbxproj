@@ -109,6 +109,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		2F2DCE5D2C14A85C00253280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F34918E2C11D4930073E13A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2F3491892C11AAC30073E13A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +149,7 @@
 			children = (
 				2F5CFC8D2C0F140E007A3FDE /* AppDelegate.swift */,
 				2F5CFC8F2C0F140E007A3FDE /* SceneDelegate.swift */,
-				2F5CFCA72C0F1463007A3FDE /* Model */,
+				2F2DCE5D2C14A85C00253280 /* Model */,
 				2F5CFCA62C0F1462007A3FDE /* View */,
 				2F5CFCA42C0F1435007A3FDE /* ViewModel */,
 				2F5CFCAA2C0F14CD007A3FDE /* Controller */,
@@ -175,15 +183,6 @@
 				2F3491922C12F9A60073E13A /* UserCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		2F5CFCA72C0F1463007A3FDE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2F34918E2C11D4930073E13A /* User.swift */,
-			);
-			name = Model;
-			path = "New Group1/Model";
 			sourceTree = "<group>";
 		};
 		2F5CFCAA2C0F14CD007A3FDE /* Controller */ = {
