@@ -11,6 +11,8 @@
 		2F2DCE582C146E5B00253280 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE572C146E5B00253280 /* UploadPostController.swift */; };
 		2F2DCE5A2C14866500253280 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE592C14866500253280 /* InputTextView.swift */; };
 		2F2DCE5C2C1496A500253280 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE5B2C1496A500253280 /* PostService.swift */; };
+		2F2DCE5F2C197C9B00253280 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE5E2C197C9B00253280 /* Post.swift */; };
+		2F2DCE612C198E1300253280 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE602C198E1300253280 /* PostViewModel.swift */; };
 		2F34917E2C0FACE50073E13A /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917D2C0FACE50073E13A /* ImageUploader.swift */; };
 		2F3491802C0FACEF0073E13A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917F2C0FACEF0073E13A /* AuthService.swift */; };
 		2F3491842C10C6E80073E13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F3491832C10C6E70073E13A /* GoogleService-Info.plist */; };
@@ -46,6 +48,8 @@
 		2F2DCE572C146E5B00253280 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
 		2F2DCE592C14866500253280 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		2F2DCE5B2C1496A500253280 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		2F2DCE5E2C197C9B00253280 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2F2DCE602C198E1300253280 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		2F34917D2C0FACE50073E13A /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		2F34917F2C0FACEF0073E13A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2F3491832C10C6E70073E13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -113,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				2F34918E2C11D4930073E13A /* User.swift */,
+				2F2DCE5E2C197C9B00253280 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				2F5CFCC82C0F69EE007A3FDE /* AuthenticationViewModel.swift */,
 				2F3491902C11DB5A0073E13A /* ProfileHeaderViewModel.swift */,
 				2F3491942C1306B70073E13A /* UserCellViewModel.swift */,
+				2F2DCE602C198E1300253280 /* PostViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -355,6 +361,7 @@
 				2F3491952C1306B70073E13A /* UserCellViewModel.swift in Sources */,
 				2F5CFCC12C0F3F26007A3FDE /* LoginController.swift in Sources */,
 				2F5CFC8E2C0F140E007A3FDE /* AppDelegate.swift in Sources */,
+				2F2DCE5F2C197C9B00253280 /* Post.swift in Sources */,
 				2F5CFCBA2C0F2EE3007A3FDE /* FeedCell.swift in Sources */,
 				2F3491882C11AABE0073E13A /* ProfileHeader.swift in Sources */,
 				2F5CFCB22C0F1ABA007A3FDE /* SearchController.swift in Sources */,
@@ -369,6 +376,7 @@
 				2F34917E2C0FACE50073E13A /* ImageUploader.swift in Sources */,
 				2F3491802C0FACEF0073E13A /* AuthService.swift in Sources */,
 				2F5CFC902C0F140E007A3FDE /* SceneDelegate.swift in Sources */,
+				2F2DCE612C198E1300253280 /* PostViewModel.swift in Sources */,
 				2F3491912C11DB5A0073E13A /* ProfileHeaderViewModel.swift in Sources */,
 				2F5CFCC52C0F4A2B007A3FDE /* CustomViews.swift in Sources */,
 				2F2DCE5A2C14866500253280 /* InputTextView.swift in Sources */,
