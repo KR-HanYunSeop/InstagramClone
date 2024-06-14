@@ -13,6 +13,12 @@
 		2F2DCE5C2C1496A500253280 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE5B2C1496A500253280 /* PostService.swift */; };
 		2F2DCE5F2C197C9B00253280 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE5E2C197C9B00253280 /* Post.swift */; };
 		2F2DCE612C198E1300253280 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE602C198E1300253280 /* PostViewModel.swift */; };
+		2F2DCE862C1AE52C00253280 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE852C1AE52C00253280 /* CommentController.swift */; };
+		2F2DCE882C1AE75500253280 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE872C1AE75500253280 /* CommentCell.swift */; };
+		2F2DCE8A2C1AEE4100253280 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE892C1AEE4100253280 /* CommentInputAccesoryView.swift */; };
+		2F2DCE8C2C1B10DC00253280 /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE8B2C1B10DC00253280 /* CommentService.swift */; };
+		2F2DCE8E2C1B134D00253280 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE8D2C1B134D00253280 /* Comment.swift */; };
+		2F2DCE902C1B16C300253280 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DCE8F2C1B16C300253280 /* CommentViewModel.swift */; };
 		2F34917E2C0FACE50073E13A /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917D2C0FACE50073E13A /* ImageUploader.swift */; };
 		2F3491802C0FACEF0073E13A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34917F2C0FACEF0073E13A /* AuthService.swift */; };
 		2F3491842C10C6E80073E13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F3491832C10C6E70073E13A /* GoogleService-Info.plist */; };
@@ -50,6 +56,12 @@
 		2F2DCE5B2C1496A500253280 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		2F2DCE5E2C197C9B00253280 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2F2DCE602C198E1300253280 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		2F2DCE852C1AE52C00253280 /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		2F2DCE872C1AE75500253280 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		2F2DCE892C1AEE4100253280 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
+		2F2DCE8B2C1B10DC00253280 /* CommentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentService.swift; sourceTree = "<group>"; };
+		2F2DCE8D2C1B134D00253280 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		2F2DCE8F2C1B16C300253280 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
 		2F34917D2C0FACE50073E13A /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		2F34917F2C0FACEF0073E13A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2F3491832C10C6E70073E13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -118,6 +130,7 @@
 			children = (
 				2F34918E2C11D4930073E13A /* User.swift */,
 				2F2DCE5E2C197C9B00253280 /* Post.swift */,
+				2F2DCE8D2C1B134D00253280 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +189,7 @@
 				2F3491902C11DB5A0073E13A /* ProfileHeaderViewModel.swift */,
 				2F3491942C1306B70073E13A /* UserCellViewModel.swift */,
 				2F2DCE602C198E1300253280 /* PostViewModel.swift */,
+				2F2DCE8F2C1B16C300253280 /* CommentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +201,8 @@
 				2F5CFCB92C0F2EE3007A3FDE /* FeedCell.swift */,
 				2F5CFCC42C0F4A2B007A3FDE /* CustomViews.swift */,
 				2F3491922C12F9A60073E13A /* UserCell.swift */,
+				2F2DCE872C1AE75500253280 /* CommentCell.swift */,
+				2F2DCE892C1AEE4100253280 /* CommentInputAccesoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +218,7 @@
 				2F5CFCB52C0F1ACE007A3FDE /* NotificationController.swift */,
 				2F5CFCB72C0F1AD6007A3FDE /* ProfileController.swift */,
 				2F2DCE572C146E5B00253280 /* UploadPostController.swift */,
+				2F2DCE852C1AE52C00253280 /* CommentController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +230,7 @@
 				2F34917F2C0FACEF0073E13A /* AuthService.swift */,
 				2F34918A2C11D2AC0073E13A /* UserService.swift */,
 				2F2DCE5B2C1496A500253280 /* PostService.swift */,
+				2F2DCE8B2C1B10DC00253280 /* CommentService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -357,18 +375,22 @@
 				2F2DCE582C146E5B00253280 /* UploadPostController.swift in Sources */,
 				2F5CFCB42C0F1AC3007A3FDE /* ImageSelectorController.swift in Sources */,
 				2F5CFCC92C0F69EE007A3FDE /* AuthenticationViewModel.swift in Sources */,
+				2F2DCE8E2C1B134D00253280 /* Comment.swift in Sources */,
 				2F5CFCB02C0F1AB3007A3FDE /* FeedController.swift in Sources */,
 				2F3491952C1306B70073E13A /* UserCellViewModel.swift in Sources */,
 				2F5CFCC12C0F3F26007A3FDE /* LoginController.swift in Sources */,
 				2F5CFC8E2C0F140E007A3FDE /* AppDelegate.swift in Sources */,
 				2F2DCE5F2C197C9B00253280 /* Post.swift in Sources */,
 				2F5CFCBA2C0F2EE3007A3FDE /* FeedCell.swift in Sources */,
+				2F2DCE862C1AE52C00253280 /* CommentController.swift in Sources */,
 				2F3491882C11AABE0073E13A /* ProfileHeader.swift in Sources */,
 				2F5CFCB22C0F1ABA007A3FDE /* SearchController.swift in Sources */,
 				2F5CFCB82C0F1AD6007A3FDE /* ProfileController.swift in Sources */,
 				2F3491932C12F9A60073E13A /* UserCell.swift in Sources */,
+				2F2DCE8A2C1AEE4100253280 /* CommentInputAccesoryView.swift in Sources */,
 				2F5CFCBE2C0F2FD8007A3FDE /* Extensions.swift in Sources */,
 				2F5CFCAE2C0F159E007A3FDE /* MainTabController.swift in Sources */,
+				2F2DCE8C2C1B10DC00253280 /* CommentService.swift in Sources */,
 				2F2DCE5C2C1496A500253280 /* PostService.swift in Sources */,
 				2F34918B2C11D2AC0073E13A /* UserService.swift in Sources */,
 				2F5CFCB62C0F1ACE007A3FDE /* NotificationController.swift in Sources */,
@@ -378,8 +400,10 @@
 				2F5CFC902C0F140E007A3FDE /* SceneDelegate.swift in Sources */,
 				2F2DCE612C198E1300253280 /* PostViewModel.swift in Sources */,
 				2F3491912C11DB5A0073E13A /* ProfileHeaderViewModel.swift in Sources */,
+				2F2DCE882C1AE75500253280 /* CommentCell.swift in Sources */,
 				2F5CFCC52C0F4A2B007A3FDE /* CustomViews.swift in Sources */,
 				2F2DCE5A2C14866500253280 /* InputTextView.swift in Sources */,
+				2F2DCE902C1B16C300253280 /* CommentViewModel.swift in Sources */,
 				2F34918F2C11D4930073E13A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
