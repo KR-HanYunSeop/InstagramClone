@@ -47,6 +47,10 @@
 		2F5CFCC32C0F3F3E007A3FDE /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCC22C0F3F3E007A3FDE /* RegistrationController.swift */; };
 		2F5CFCC52C0F4A2B007A3FDE /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCC42C0F4A2B007A3FDE /* CustomViews.swift */; };
 		2F5CFCC92C0F69EE007A3FDE /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CFCC82C0F69EE007A3FDE /* AuthenticationViewModel.swift */; };
+		2FFE42182C203B8700E9F2C6 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE42172C203B8700E9F2C6 /* NotificationCell.swift */; };
+		2FFE421A2C20402B00E9F2C6 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE42192C20402B00E9F2C6 /* Notification.swift */; };
+		2FFE421C2C20427800E9F2C6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE421B2C20427800E9F2C6 /* NotificationService.swift */; };
+		2FFE421E2C20503E00E9F2C6 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE421D2C20503E00E9F2C6 /* NotificationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +96,10 @@
 		2F5CFCC22C0F3F3E007A3FDE /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		2F5CFCC42C0F4A2B007A3FDE /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 		2F5CFCC82C0F69EE007A3FDE /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		2FFE42172C203B8700E9F2C6 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		2FFE42192C20402B00E9F2C6 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		2FFE421B2C20427800E9F2C6 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2FFE421D2C20503E00E9F2C6 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		51C89E6213067871F3CBC709 /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 		F3A61833DEDCA77DD519A721 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +139,7 @@
 				2F34918E2C11D4930073E13A /* User.swift */,
 				2F2DCE5E2C197C9B00253280 /* Post.swift */,
 				2F2DCE8D2C1B134D00253280 /* Comment.swift */,
+				2FFE42192C20402B00E9F2C6 /* Notification.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +199,7 @@
 				2F3491942C1306B70073E13A /* UserCellViewModel.swift */,
 				2F2DCE602C198E1300253280 /* PostViewModel.swift */,
 				2F2DCE8F2C1B16C300253280 /* CommentViewModel.swift */,
+				2FFE421D2C20503E00E9F2C6 /* NotificationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -203,6 +213,7 @@
 				2F3491922C12F9A60073E13A /* UserCell.swift */,
 				2F2DCE872C1AE75500253280 /* CommentCell.swift */,
 				2F2DCE892C1AEE4100253280 /* CommentInputAccesoryView.swift */,
+				2FFE42172C203B8700E9F2C6 /* NotificationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +242,7 @@
 				2F34918A2C11D2AC0073E13A /* UserService.swift */,
 				2F2DCE5B2C1496A500253280 /* PostService.swift */,
 				2F2DCE8B2C1B10DC00253280 /* CommentService.swift */,
+				2FFE421B2C20427800E9F2C6 /* NotificationService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -372,6 +384,7 @@
 			files = (
 				2F3491862C11AAA60073E13A /* ProfileCell.swift in Sources */,
 				2F5CFCC32C0F3F3E007A3FDE /* RegistrationController.swift in Sources */,
+				2FFE421E2C20503E00E9F2C6 /* NotificationViewModel.swift in Sources */,
 				2F2DCE582C146E5B00253280 /* UploadPostController.swift in Sources */,
 				2F5CFCB42C0F1AC3007A3FDE /* ImageSelectorController.swift in Sources */,
 				2F5CFCC92C0F69EE007A3FDE /* AuthenticationViewModel.swift in Sources */,
@@ -387,6 +400,7 @@
 				2F5CFCB22C0F1ABA007A3FDE /* SearchController.swift in Sources */,
 				2F5CFCB82C0F1AD6007A3FDE /* ProfileController.swift in Sources */,
 				2F3491932C12F9A60073E13A /* UserCell.swift in Sources */,
+				2FFE421A2C20402B00E9F2C6 /* Notification.swift in Sources */,
 				2F2DCE8A2C1AEE4100253280 /* CommentInputAccesoryView.swift in Sources */,
 				2F5CFCBE2C0F2FD8007A3FDE /* Extensions.swift in Sources */,
 				2F5CFCAE2C0F159E007A3FDE /* MainTabController.swift in Sources */,
@@ -395,9 +409,11 @@
 				2F34918B2C11D2AC0073E13A /* UserService.swift in Sources */,
 				2F5CFCB62C0F1ACE007A3FDE /* NotificationController.swift in Sources */,
 				2F34918D2C11D2E10073E13A /* Constants.swift in Sources */,
+				2FFE421C2C20427800E9F2C6 /* NotificationService.swift in Sources */,
 				2F34917E2C0FACE50073E13A /* ImageUploader.swift in Sources */,
 				2F3491802C0FACEF0073E13A /* AuthService.swift in Sources */,
 				2F5CFC902C0F140E007A3FDE /* SceneDelegate.swift in Sources */,
+				2FFE42182C203B8700E9F2C6 /* NotificationCell.swift in Sources */,
 				2F2DCE612C198E1300253280 /* PostViewModel.swift in Sources */,
 				2F3491912C11DB5A0073E13A /* ProfileHeaderViewModel.swift in Sources */,
 				2F2DCE882C1AE75500253280 /* CommentCell.swift in Sources */,
