@@ -51,6 +51,7 @@
 		2FFE421A2C20402B00E9F2C6 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE42192C20402B00E9F2C6 /* Notification.swift */; };
 		2FFE421C2C20427800E9F2C6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE421B2C20427800E9F2C6 /* NotificationService.swift */; };
 		2FFE421E2C20503E00E9F2C6 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE421D2C20503E00E9F2C6 /* NotificationViewModel.swift */; };
+		2FFE42202C21A37C00E9F2C6 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE421F2C21A37C00E9F2C6 /* ResetPasswordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		2FFE42192C20402B00E9F2C6 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		2FFE421B2C20427800E9F2C6 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		2FFE421D2C20503E00E9F2C6 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		2FFE421F2C21A37C00E9F2C6 /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
 		51C89E6213067871F3CBC709 /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 		F3A61833DEDCA77DD519A721 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -262,6 +264,7 @@
 			children = (
 				2F5CFCC02C0F3F26007A3FDE /* LoginController.swift */,
 				2F5CFCC22C0F3F3E007A3FDE /* RegistrationController.swift */,
+				2FFE421F2C21A37C00E9F2C6 /* ResetPasswordController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				2F5CFCB22C0F1ABA007A3FDE /* SearchController.swift in Sources */,
 				2F5CFCB82C0F1AD6007A3FDE /* ProfileController.swift in Sources */,
 				2F3491932C12F9A60073E13A /* UserCell.swift in Sources */,
+				2FFE42202C21A37C00E9F2C6 /* ResetPasswordController.swift in Sources */,
 				2FFE421A2C20402B00E9F2C6 /* Notification.swift in Sources */,
 				2F2DCE8A2C1AEE4100253280 /* CommentInputAccesoryView.swift in Sources */,
 				2F5CFCBE2C0F2FD8007A3FDE /* Extensions.swift in Sources */,
