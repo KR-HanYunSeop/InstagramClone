@@ -1,7 +1,8 @@
-GoogleService-Info.plist
 
 # Created by https://www.toptal.com/developers/gitignore/api/swift,xcode,cocoapods,firebase
 # Edit at https://www.toptal.com/developers/gitignore?templates=swift,xcode,cocoapods,firebase
+
+GoogleService-Info.plist
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
