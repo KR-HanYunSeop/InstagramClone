@@ -49,6 +49,7 @@ class MainTabController: UITabBarController {
     }
     
     // MARK: - Helpers
+    
     func setupTabbar() {
         tabBar.tintColor = .black
         tabBar.backgroundColor = .white
