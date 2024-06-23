@@ -11,6 +11,5 @@
 - CocoaPods and custom third party APIs 
 - Implement/Use protocols 
 - Dynamically size collection view cells
-
 ### This code was referenced from the [Udemy course - Stephan Dowless](https://www.udemy.com/course/instagram-firestore-app-clone-swift-5-ios-14-mvvm/).
 
